@@ -1,7 +1,7 @@
 word='door'
 symbol='o'
-counter='0'
+counter=0
 for x in word:
-    if word==symbol:
-        counter + 1 
-        print('word')
+    if x==symbol:
+        counter=counter+1
+        print(counter)
